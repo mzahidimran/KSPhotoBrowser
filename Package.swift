@@ -17,6 +17,8 @@ let package = Package(
     targets: [
         .target(
             name: "KSPhotoBrowser",
-            dependencies: ["SDWebImage"], path: "KSPhotoBrowser")
+            dependencies: ["SDWebImage"], 
+            path: "KSPhotoBrowser",
+            publicHeadersPath: "ObjC")
     ]
 )
