@@ -12,7 +12,7 @@ let package = Package(
             targets: ["KSPhotoBrowser"])
     ],
     dependencies: [
-        .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.0.0")
+        .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.19.5")
     ],
     targets: [
         .target(
